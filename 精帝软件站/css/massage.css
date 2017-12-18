@@ -1,0 +1,99 @@
+#gaopin{
+	width: 1000px;
+	line-height: 3rem;
+	height: 3rem;
+	margin: 0 auto;
+
+}
+#head{
+	width:1100px;
+	margin:0 auto;
+	height:auto;
+	background-color: #FFFFFF;
+}
+#all_ul{
+	width:100%;
+	list-style: none;
+	margin: 0 auto;
+	margin-left: 2rem;
+}
+#all_ul li{
+	width:100%;
+	height:15rem;
+	padding: 1rem;
+	float: left;
+	background: #EEEEEE;
+	margin-right: 15px;
+    margin-bottom: 15px;
+}
+#all_ul li h1{
+	font-size: 15px;
+	border-bottom: 1px solid #b9bdb5;
+}
+#all_ul li h1 a{
+	color: #00BFFF;
+}
+.bottoms{
+	margin-top:1rem;
+	width:100%;
+	height:100%;
+}
+.lefts{
+	display: inline-block;
+	width:150px;
+	height:120px
+}
+.lefts img{
+	width:100%
+}
+.lis_list{
+	width:60%;
+	float:right;
+}
+.lis_list p{
+	color:#000;
+	font-size:16px;
+	line-height: 2rem;
+	margin-top: 1rem;
+}
+.lis_list p span{
+    display: inline-block;
+    width:50%;
+    height:100%;
+    text-align: left;	
+}
+.lis_list{
+	width:60%
+}
+.download{
+	width:95%;
+	margin: 0 auto;
+}
+.download h2{
+	padding: 1rem;
+}
+#list_load{
+	width:100%;
+	height:3rem;
+	background: gainsboro;
+}
+#list_load a{
+	display: inline-block;
+	width:100px;
+	height:100%;
+	text-align: center;
+	line-height: 3rem;
+	background: dodgerblue;
+	color: #FFFFFF;
+	margin-right: 1rem;
+}
+#kuai{
+	width:100%;
+	margin-bottom: 3rem;
+	background: gainsboro;
+}
+#kuai .list_show{
+	height:2rem;
+	line-height: 2rem;
+	
+}

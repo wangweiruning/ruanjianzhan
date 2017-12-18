@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>精帝软件园下载站</title>
+		<meta  name="keywords" content="时时彩软件,快三软件,赛车软件,十一选五软件"/>
+		<meta  name="description" content="精帝彩软件是国内最新研发时时彩,北京赛车,
+		十一选五,快三等各类彩种玩法的预测软件,是你身边最具有专业设定的彩票分析专家。"/>
+		<link rel="stylesheet" type="text/css" href="../../css/commom.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/massage.css"/>
+	</head>
+	<body>
+		<h2 id="gaopin">高频彩软件下载</h2>
+		<div id="head">
+			<ul id="all_ul">
+				<!--数据展示-->
+			</ul>
+		<div class="download" >
+			<h2 class="listr">下载地址</h2>
+			<div id="list_load">
+				<a href="" class="local">本地下载</a>
+				<a href="" class="local">非凡下载</a>
+				<a href="" class="local">百度云盘</a>
+				<a href="" idclass"local">百度云盘</a>
+			</div>
+		</div>
+		<div class="download">
+			<h2 id="show">详细介绍</h2>
+			<div id="kuai">
+				
+			</div>
+		</div>
+	</div>
+	<script src="../../js/jquery-3.1.1.min.js"></script>
+	<script>
+		$(function(){
+			var title = window.localStorage.getItem("title");//获取上一页的应用信息
+			$("#gaopin").text(title);
+			
+			$.get("../../data/msg.json",function(res){
+				var data=res.datas.ios;
+				console.log(data)
+				$("#all_ul").empty();
+				
+				var htmls="";
+				var item = data[0];
+					htmls+='<li class="ssc_lis">'+
+					'<div class="islinks left">'+
+						'<img src="'+item.imgs+'" alt="" />'+
+					'</div> '+
+					'<div class="lis_list left">'+
+						'<h2><a href="javascript:;" style="color:#636161;">'+item.title+'</a></h2>'+
+						'<div class="lis_cent">'+
+							'<p>'+
+								'<span class="time_undate">'+item.time+'</span>'+
+								'<span class="time_undate">'+item.large+'</span>'+
+							'</p>'+
+							'<p>'+
+								'<span class="time_undate">'+item.lang+'</span>'+
+								'<span class="time_undate">'+item.run+'</span>'+
+							'</p>'+
+							'<p>'+
+								'<span class="time_undate">'+item.pay+'</span>'+
+							'</p>'+
+						'</div>'+
+					'</div>'+
+				'</li>';
+				$("#all_ul").html(htmls)
+				
+				var s_massage=res.datas.massage;
+				console.log(s_massage)
+				var text="";
+				$("#kuai").empty();
+				$.map(s_massage, function(item) {
+				text+='<p class="list_show">'+item.one+'</p>';
+				$("#kuai").html(text);
+			})
+			})
+			
+		})
+	</script>
+	</body>
+</html>
