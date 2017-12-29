@@ -19,7 +19,17 @@
 	<script src="../../js/jquery-3.1.1.min.js"></script>
 	<script>
 		$(function(){
-			$.get("../../data/caizhong.json",function(data){
+			$.ajax({
+			type:"get",
+			url:"../../data/caizhong.json",
+			data:{
+			
+		},
+			dataType:'json',
+			contentType:"application/json",
+		success:function(data){
+			
+				data=eval(data);
 				var data=data.data;
 				console.log(data)
 				$("#all_ul").empty();
@@ -50,7 +60,8 @@
 //					console.log($(this).text())
 				})
 			})
-			})
+		}
+		})
 			
 			
 		})
