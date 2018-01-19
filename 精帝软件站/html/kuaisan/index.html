@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>精帝软件园下载站</title>
+		<title>必中软件下载</title>
 		<meta  name="keywords" content="时时彩软件,快三软件,赛车软件,十一选五软件"/>
 		<meta  name="description" content="精帝彩软件是国内最新研发时时彩,北京赛车,
 		十一选五,快三等各类彩种玩法的预测软件,是你身边最具有专业设定的彩票分析专家。"/>
@@ -15,45 +15,30 @@
 		</div>
 		<div id="centers">
 			<ul id="ssc_data">
-				<!--具体数据显示-->
+				<li class="ssc_lis">
+					<div class="islinks left">
+						<img src="../../img/logo.png" alt="" />
+					</div> 
+					<div class="lis_list left">
+						<h2><a href="http://jincaizhushou.com/" style="color:#636161;" target="_blank">pk10时时彩计划(安卓版)</a></h2>
+						<div class="lis_cent">
+							<p>
+								<span class="time_undate">发布日期：18-01</span>
+								<span class="time_undate">系统大小：6.08 M</span>
+							</p>
+							<p>
+								<span class="time_undate">界面语言:简体中文</span>
+								<span class="time_undate">运行环境：安卓/ios</span>
+							</p>
+							<p>
+								<span class="time_undate">授权方式：付费版</span>
+							</p>
+							<a href="http://sj.qq.com/myapp/detail.htm?apkName=com.jdruanjian.lottery" class="btnss right" target="_black">立即下载</a>
+						</div>
+					</div>
+				</li>
 			</ul>
 		</div>
 	</body>
 	<script src="../../js/jquery-3.1.1.min.js"></script>
-	<script>
-		$(function(){
-			$.get("../../data/msg.json",function(data){
-				var data=data.datas.kuaisan;
-				console.log(data)
-				$("#ssc_data").empty();
-				
-				var htmls="";
-				$.map(data, function(item) {
-					htmls+='<li class="ssc_lis">'+
-					'<div class="islinks left">'+
-						'<img src="'+item.imgs+'" alt="" />'+
-					'</div> '+
-					'<div class="lis_list left">'+
-						'<h2><a href="javascript:;" style="color:#636161;">'+item.title+'</a></h2>'+
-						'<div class="lis_cent">'+
-							'<p>'+
-								'<span class="time_undate">'+item.time+'</span>'+
-								'<span class="time_undate">'+item.large+'</span>'+
-							'</p>'+
-							'<p>'+
-								'<span class="time_undate">'+item.lang+'</span>'+
-								'<span class="time_undate">'+item.run+'</span>'+
-							'</p>'+
-							'<p>'+
-								'<span class="time_undate">'+item.pay+'</span>'+
-							'</p>'+
-						'</div>'+
-						'<a href="" class="btnss right">详细介绍</a>'+
-					'</div>'+
-				'</li>';
-				})
-				$("#ssc_data").html(htmls);
-		})	
-	})
-	</script>
 </html>
