@@ -36,7 +36,7 @@ ul,ol,li{list-style: none;}
 	float: right;
 }
 /*footer*/
-#footers{width:100%;height:auto;background: #666666;padding-top:1rem ;}
+#footers{width:100%;height:auto;background: #666666;padding:1rem 0;}
 #footers p{text-align: center;color: #ffffff;padding: 0.2rem;}
 #footers p a{color:#000;padding: 0.2rem;}
 #footers p a:hover{color:mediumspringgreen}
