@@ -31,5 +31,36 @@
 			
 	点击具体的应用时跳转到该应用的介绍，可下载
 	
+	
+	
+	
+	北京赛车：
+		android:	http://47.104.108.204:8080/pk10/android/BJBZ.APK
+		ios: 		http://fir.im/PK10iOS
+		pc：			http://47.104.108.204:8080/pk10/pc/PK10.exe
+	
+	重庆时时彩：
+		android:	http://47.104.108.204:8080/pk10/android/CQSSC.APK
+		ios: 		http://fir.im/CQSSCiOS
+		pc:			http://47.104.108.204:8080/pk10/pc/CQSSC.exe
+		
+	飞艇：
+		android:	http://47.104.108.204:8080/pk10/android/XYFT.APK
+		ios: 		http://fir.im/XYFTiOS
+		pc：			http://47.104.108.204:8080/pk10/pc/XYFT.exe
+	
+	快三：
+		android:	http://47.104.108.204:8080/pk10/android/KS.APK
+		ios: 		http://fir.im/AllKSiOS
+		pc:			http://47.104.108.204:8080/pk10/pc/KS.exe
+	北京杀码：
+		android:	http://47.104.108.204:8080/pk10/android/BJBZ.APK
+		ios: 		http://fir.im/PK10iOS
+		pc：			http://47.104.108.204:8080/pk10/pc/PK10.exe
+	
+	重庆杀码：
+		android:	http://47.104.108.204:8080/pk10/android/BJBZ.APK
+		ios: 		http://fir.im/PK10iOS
+		pc:			http://47.104.108.204:8080/pk10/pc/PK10.exe
 
 

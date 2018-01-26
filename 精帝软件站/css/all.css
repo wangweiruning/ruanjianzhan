@@ -1,12 +1,12 @@
 #gaopin{
-	width: 1000px;
+	width: 90%;
 	line-height: 3rem;
 	height: 3rem;
 	margin: 0 auto;
 
 }
 #head{
-	width:1100px;
+	width:90%;
 	margin:0 auto;
 	height:auto;
 	background-color: #FFFFFF;
@@ -23,8 +23,7 @@
 	padding: 1rem;
 	float: left;
 	background: #EEEEEE;
-	margin-right: 15px;
-    margin-bottom: 15px;
+	margin: 10PX;
 }
 #all_ul li h1{
 	font-size: 15px;
